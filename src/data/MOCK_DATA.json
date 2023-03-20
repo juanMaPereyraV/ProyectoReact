@@ -1,0 +1,66 @@
+ [
+    {
+        "id":1,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":2,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":3,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":4,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":5,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":6,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":7,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":8,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    },
+    {
+        "id":9,
+        "Nombre": "Producto 1",
+        "Descripcion": "lorem ipsum",
+        "Precio": 1500,
+        "img": "http://via.placeholder.com/200"
+    }
+    
+]

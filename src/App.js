@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+    
   <div>
     <Navbar/>
     <ItemListContainer greeting={" Todo lo que necesites para un AutoCultivo Exitoso"}/>
@@ -16,6 +17,7 @@ function App() {
     
 
   </div>
+  
   )
 
 }

@@ -7,7 +7,7 @@ const Cartwidget = () => {
 
         <div className="Carrito">
             <FaCartPlus/>
-            <span>0</span>
+            <span className="numCart">0</span>
 
         </div>
     )
