@@ -12,6 +12,7 @@ const ItemDetailContainer = () => {
 
     console.log (itemID)
     console.log (item)
+    console.log (loading)
     
     useEffect (() => {
          setLoading (true)
@@ -25,7 +26,7 @@ const ItemDetailContainer = () => {
              .finally (() => {
                 setLoading (false)
              })
-    }, [])
+    }, [itemID])
 
     return (
 
