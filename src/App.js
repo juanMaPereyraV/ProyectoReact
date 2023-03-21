@@ -2,24 +2,43 @@ import { Navbar } from './components/Navbar/Navbar';
 import { ItemListContainer} from './components/ItemListContainer/ItemListContainer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Nosotros from './components/Nosotros/Nosotros'
+import Productos from './components/Productos/Productos'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 
 function App() {
+  
   return (
     
-  <div>
+    
+    <BrowserRouter>
+    
     <Navbar/>
-    <ItemListContainer greeting={" Todo lo que necesites para un AutoCultivo Exitoso"}/>
-
     
 
-  </div>
+    <Routes>
+
+      <Route path='/' element = { <ItemListContainer /> }/>
+      <Route path= 'Nosotros' element= { <Nosotros  />  } />
+      <Route path= '/Productos' element= { <Productos /> } />
+      <Route path= '/Detail/:itemID' element= { <ItemDetailContainer /> } />
+      <Route path= '*' element= { <Navigate to= {"/"} /> } />
+
+    </Routes>
+    
+    </BrowserRouter>
   
   )
 
 }
 
 export default App;
+
+
+    
+
+  
+  

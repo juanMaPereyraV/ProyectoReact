@@ -1,66 +1,66 @@
  [
     {
-        "id":1,
+        "Id":1,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/BigCritical.png"
     },
     {
-        "id":2,
+        "Id":2,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/Ak47.png"
     },
     {
-        "id":3,
+        "Id":3,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/BigCritical.png"
     },
     {
-        "id":4,
+        "Id":4,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/GorillaRainbow.png"
     },
     {
-        "id":5,
+        "Id":5,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/MobyDick.png"
     },
     {
-        "id":6,
+        "Id":6,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/Ak47.png"
     },
     {
-        "id":7,
+        "Id":7,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/Ak47.png"
     },
     {
-        "id":8,
+        "Id":8,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/GorillaRainbow.png"
     },
     {
-        "id":9,
+        "Id":9,
         "Nombre": "Producto 1",
         "Descripcion": "lorem ipsum",
         "Precio": 1500,
-        "img": "http://via.placeholder.com/200"
+        "img": "../images/BigCritical.png"
     }
     
 ]

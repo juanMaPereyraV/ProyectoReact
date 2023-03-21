@@ -1,6 +1,7 @@
 import './Navbar.scss'
 import logo from './LogoJhonGrow.png'
 import Cartwidget from '../Cartwidget.js/Cartwidget'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     
@@ -11,9 +12,9 @@ export const Navbar = () => {
                 <h1 className="header-logo"> BIENVENIDOS A UNA VIDA VERDE</h1>
 
                 <nav className="navbar">
-                    <p className="navbar-link"> Semillas</p>
-                    <p className="navbar-link"> Productos</p>
-                    <p className="navbar-link"> Nosotros</p>
+                    <Link to='/' className="navbar-link"> Semillas</Link>
+                    <Link to='/Nosotros' className="navbar-link"> Nosotros</Link>
+                    <Link to='/Productos' className="navbar-link"> Productos</Link>
                 </nav>
 
                 <Cartwidget/>
