@@ -1,8 +1,16 @@
 .detalle{
     text-align: center;
-    color: white
+    color: white;
+    font-size: 50px;
 }
 
 .loading{
     color: white
+}
+
+.contenedor{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }

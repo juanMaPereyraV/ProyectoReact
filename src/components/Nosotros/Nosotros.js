@@ -1,4 +1,4 @@
-
+import './Nosotros.scss'
 
 
 const Nosotros = () => {
