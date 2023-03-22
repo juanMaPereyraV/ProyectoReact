@@ -12,7 +12,7 @@ const ItemDetailContainer = () => {
 
     console.log (itemID)
     console.log (item)
-    console.log (loading)
+    console.log (loading) //se usa provisoriamente porque tira un warning del loading y no compila en Netlify
     
     useEffect (() => {
          setLoading (true)
