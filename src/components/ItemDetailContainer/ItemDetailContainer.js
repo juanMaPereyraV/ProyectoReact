@@ -1,6 +1,9 @@
+import './ItemDetailContainer.scss'
 import { useEffect, useState } from "react"
 import { pedirDatos } from "../../helpers/pedirDatos"
 import { useParams } from "react-router-dom"
+import ItemDetail from "../ItemDetail/ItemDetail"
+
 
 
 
@@ -10,9 +13,8 @@ const ItemDetailContainer = () => {
     const [loading, setLoading] = useState (true)
     const {itemID} = useParams ()
 
-    console.log (itemID)
-    console.log (item)
-    console.log (loading) //se usa provisoriamente porque tira un warning del loading y no compila en Netlify
+  
+    
     
     useEffect (() => {
          setLoading (true)
@@ -32,8 +34,12 @@ const ItemDetailContainer = () => {
 
         <div className="container my-5">
             
-            <h2>Item Detail Container</h2>
-
+            <h2 className="detalle"> Detalle del Producto </h2>
+            {
+                loading
+                    ? <h2 className="loading"> Cargando...</h2>
+                    : <ItemDetail item = {item}/>
+            }
         </div>
             
 
