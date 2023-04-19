@@ -12,8 +12,8 @@ export const Navbar = () => {
                 <h1 className="header-logo"> TODO LO QUE NECESITAS PARA TU CULTIVO</h1>
 
                 <nav className="navbar">
-                    <Link to='/' className="navbar-link"> Semillas</Link>
-                    <Link to='/Productos' className="navbar-link"> Productos</Link>
+                    <Link to='/' className="navbar-link"> Inicio</Link>
+                    <Link to='/Productos' className="navbar-link"> Semillas</Link>
                     <Link to='/Nosotros' className="navbar-link"> Nosotros</Link>
                 </nav>
 

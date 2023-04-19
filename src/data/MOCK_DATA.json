@@ -4,63 +4,81 @@
         "Nombre": "Big Critical",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 5800,
-        "img": "../images/BigCritical.png"
+        "img": "../images/BigCritical.png",
+        "category": "Sativa",
+        "stock": 25
     },
     {
         "Id":2,
         "Nombre": "Ak 47",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 6000,
-        "img": "../images/Ak47.png"
+        "img": "../images/Ak47.png",
+        "category": "Indica",
+        "stock": 29
     },
     {
         "Id":3,
         "Nombre": "Hulk Hogan",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 7200,
-        "img": "../images/BigCritical.png"
+        "img": "../images/BigCritical.png",
+        "category": "Sativa",
+        "stock": 25
     },
     {
         "Id":4,
         "Nombre": "Gorilla Rain",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 4800,
-        "img": "../images/GorillaRainbow.png"
+        "img": "../images/GorillaRainbow.png",
+        "category": "Indica",
+        "stock": 30
     },
     {
         "Id":5,
         "Nombre": "Moby Dick",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 4500,
-        "img": "../images/MobyDick.png"
+        "img": "../images/MobyDick.png",
+        "category": "Sativa",
+        "stock": 45
     },
     {
         "Id":6,
         "Nombre": "Chuck Norris",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 8000,
-        "img": "../images/Ak47.png"
+        "img": "../images/Ak47.png",
+        "category": "Indica",
+        "stock": 15
     },
     {
         "Id":7,
         "Nombre": "Kick Ass",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 4100,
-        "img": "../images/Ak47.png"
+        "img": "../images/Ak47.png",
+        "category": "Sativa",
+        "stock": 47
     },
     {
         "Id":8,
         "Nombre": "Lemon Haze",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 6200,
-        "img": "../images/GorillaRainbow.png"
+        "img": "../images/GorillaRainbow.png",
+        "category": "Indica",
+        "stock": 20
     },
     {
         "Id":9,
         "Nombre": "Mohan CBD",
         "Descripcion": "Pack x 3 semillas",
         "Precio": 3900,
-        "img": "../images/BigCritical.png"
+        "img": "../images/BigCritical.png",
+        "category": "Sativa",
+        "stock": 31
     }
     
 ]
