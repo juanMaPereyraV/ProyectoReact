@@ -6,13 +6,20 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Nosotros from './components/Nosotros/Nosotros'
 import Productos from './components/Productos/Productos'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import { CartProvider } from './components/context/CartContext.js';
+
+
+
 
 
 
 function App() {
-  
+ 
+
   return (
     
+    
+    <CartProvider>
     
     <BrowserRouter>
     
@@ -30,7 +37,8 @@ function App() {
     </Routes>
     
     </BrowserRouter>
-  
+    </CartProvider>
+    
   )
 
 }

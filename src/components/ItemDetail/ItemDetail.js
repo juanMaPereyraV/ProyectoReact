@@ -1,8 +1,14 @@
 import ItemCount from "../ItemCount/ItemCount"
-import {useState} from "react"
+import { CartContext } from "../context/CartContext.js"
+import { useContext, useState } from 'react';
+import { Link } from "react-router-dom"
+
 
 
 const ItemDetail = ({item} ) => {
+
+        const {agregarAlCarrito, isInCart} = useContext (CartContext)
+        
         const [cantidad, setCantidad] = useState (1)
     
         const handleAgregar = () => {
@@ -10,8 +16,10 @@ const ItemDetail = ({item} ) => {
                 ...item,
                 cantidad
             }
-
-            console.log (newItem)
+            
+        
+             
+            agregarAlCarrito (newItem)
         }
 
         return (
@@ -23,12 +31,21 @@ const ItemDetail = ({item} ) => {
             <p>{item.Descripcion} </p>
             <p>Precio $ {item.Precio} </p>
 
-            <ItemCount
-                max={item.stock} 
-                cantidad = {cantidad}
-                setCantidad={setCantidad}
-                agregar = {handleAgregar}
+            {
+                isInCart (item.id)
+                ? <Link to = "/Cart" className="btn btn-success"> Finalizar Compra</Link>
+                : <ItemCount
+                    max={item.stock} 
+                    cantidad = {cantidad}
+                    setCantidad={setCantidad}
+                    agregar = {handleAgregar}
                 />
+
+
+            }
+
+            
+            
 
         </div>
 
