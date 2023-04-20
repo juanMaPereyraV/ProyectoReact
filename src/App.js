@@ -7,6 +7,8 @@ import Nosotros from './components/Nosotros/Nosotros'
 import Productos from './components/Productos/Productos'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { CartProvider } from './components/context/CartContext.js';
+import Cart from './components/Cart/Cart'
+
 
 
 
@@ -30,9 +32,11 @@ function App() {
 
       <Route path='/' element = { <ItemListContainer /> }/> */hacer un futuro inicio/*
       <Route path= 'Nosotros' element= { <Nosotros  />  } />
+      <Route path= '/cart' element= { <Cart  />  } />
       <Route path= '/Productos/:categoryId' element= { <Productos /> } />
       <Route path= '/Detail/:itemID' element= { <ItemDetailContainer /> } />
       <Route path= '*' element= { <Navigate to= {"/"} /> } />
+     
 
     </Routes>
     

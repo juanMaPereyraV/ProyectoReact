@@ -30,11 +30,12 @@ const ItemDetail = ({item} ) => {
             <hr/>
             <img src= {item.img} alt = {item.Nombre} />
             <p>{item.Descripcion} </p>
+            {item.stock <= 5 && <p><strong>Quedan sólo {item.stock} unidades!</strong></p>}
             <p>Precio $ {item.Precio} </p>
 
             {
                 isInCart (item.id)
-                ? <Link to = "/Cart" className="btn btn-success"> Finalizar Compra</Link>
+                ? <Link to = "/cart" className="btn btn-success"> Finalizar Compra</Link>
                 : <ItemCount
                     max={item.stock} 
                     cantidad = {cantidad}

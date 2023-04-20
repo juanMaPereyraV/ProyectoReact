@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { CartContext } from "../context/CartContext.js.js"
+import { CartContext } from "../context/CartContext.js"
 import {BsFillTrashFill} from 'react-icons/bs'
 
 
