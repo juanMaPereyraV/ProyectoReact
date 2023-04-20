@@ -2,17 +2,16 @@ import { FaCartPlus } from "react-icons/fa";
 import './Cartwidget.scss'
 import { useContext } from "react";
 import { CartContext } from "../../components/context/CartContext.js"
+import { Link } from 'react-router-dom'
 
 const Cartwidget = () => {
-const {totalCantidad} = useContext (CartContext)
+const {totalCantidad, cart} = useContext (CartContext)
 
     return (
-
-        <div className="Carrito">
-            <FaCartPlus/>
-            <span className="numCart">{totalCantidad()} </span>
-
-        </div>
+        <Link to="/cart" className={`cart-widget ${cart.length > 0 ? 'cart-widget-active' : ''}`}>
+        <FaCartPlus className='cart-icon'/>
+        <span>{totalCantidad()}</span>
+    </Link>
     )
 }
 

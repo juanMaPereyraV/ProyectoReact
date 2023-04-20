@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 
 
 
+
 const ItemDetail = ({item} ) => {
 
         const {agregarAlCarrito, isInCart} = useContext (CartContext)
