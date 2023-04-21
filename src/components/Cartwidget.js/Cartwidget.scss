@@ -1,9 +1,12 @@
 .Carrito{
     cursor:pointer;
     font-size: 40px;
+    color: black;
+}
 
-    .numCart{
-        font-size:20px
-    }
-    
+.numCart{
+    color: black;
+    font-size: 24px;
+    padding: 8px;
+    text-decoration: none;
 }
