@@ -24,7 +24,7 @@ export const CartProvider = ({children}) =>{
     }
 
     const isInCart = (id) =>{
-    return cart.some ((prod) => prod.id === id)
+    return cart.some ((prod) => prod.Id === id)
 }
 
     const totalCantidad = () =>{

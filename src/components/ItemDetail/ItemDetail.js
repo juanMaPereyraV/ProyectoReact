@@ -37,7 +37,7 @@ const ItemDetail = ({item} ) => {
                 item.stock === 0
                 ? <h4> No hay Stock de este producto</h4>
                 :
-                isInCart (item.id)
+                isInCart (item.Id)
                 ? <Link to = "/cart" className="btn btn-success"> Finalizar Compra</Link>
                 : <ItemCount
                     max={item.stock} 
