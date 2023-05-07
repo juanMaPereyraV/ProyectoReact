@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { pedirDatos } from '../../helpers/pedirDatos';
 import ItemList from '../ItemList/ItemList';
 import {useParams} from 'react-router-dom'
+import Loader from '../Loader/Loader'
 
 
 
@@ -35,24 +36,25 @@ export const ItemListContainer = ({greeting}) => {
             setLoading (false)
         })
     }, [categoryId])
- 
-
-    
     
 
     return (
         <div className="list-container">
-        <p>{greeting}</p>
-
         {
-            loading ? <h2>Cargando...</h2> : <ItemList items= {productos} /> 
+            loading
+                    ? <Loader/>                
+                    : <ItemList items= {productos} />   
         }
-
-        
+         
         </div>
-    )
+
+)
 }
 
 
 
 export default ItemListContainer
+        
+        
+
+        

@@ -9,8 +9,8 @@ const {totalCantidad, cart} = useContext (CartContext)
 
     return (
         <Link to="/cart" className={`cart-widget ${cart.length > 0 ? 'cart-widget-active' : ''}`}>
-        <FaCartPlus className='Carrito'/>
-        <span className="numCart">{totalCantidad()}</span>
+        <FaCartPlus className='cart-icon'/>
+        <span>{totalCantidad()}</span>
     </Link>
     )
 }
